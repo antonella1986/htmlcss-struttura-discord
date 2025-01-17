@@ -60,8 +60,8 @@ header{
     align-items: center;
         .jumbotron-content{
             background-color: #EE82EE;
-            width: 400px;
-            height: 200px;
+            width: 60%;
+            height: 80%;
             border: 3px dotted;
         }
 }
