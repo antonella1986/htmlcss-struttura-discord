@@ -129,3 +129,17 @@ header{
             border-bottom: 3px dotted;
         }
 }
+
+.technology{
+    background-color: lightgrey;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .technology-content{
+            background-color: #228B22;
+            width: 80%;
+            height: 80%;
+            border: 3px dotted;
+        }
+}
