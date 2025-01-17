@@ -86,3 +86,25 @@ header{
             border-bottom: 3px dotted;
         }
 }
+
+.community{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    align-items: center;
+    background-color: lightgrey;
+        .community-sxbox{
+            background-color: #1E90FF;
+            width: 30%;
+            height: 80%;
+            border: 3px dotted;
+        }
+        .community-dxbox{
+            background-color: #FFC0CB;
+            width: 50%;
+            height: 80%;
+            border-right: 3px dotted;
+            border-top: 3px dotted;
+            border-bottom: 3px dotted;
+        }
+}
