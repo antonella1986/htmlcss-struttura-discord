@@ -51,3 +51,17 @@ header{
 .link{
     padding: 0.25rem;
 }
+
+.jumbotron{
+    background-color: #00008B;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .jumbotron-content{
+            background-color: #EE82EE;
+            width: 400px;
+            height: 200px;
+            border: 3px dotted;
+        }
+}
