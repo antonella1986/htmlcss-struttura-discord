@@ -65,3 +65,24 @@ header{
             border: 3px dotted;
         }
 }
+
+.invite_only{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    align-items: center;
+        .invite_only-sxbox{
+            background-color: #1E90FF;
+            width: 50%;
+            height: 80%;
+            border: 3px dotted;
+        }
+        .invite_only-dxbox{
+            background-color: #FFC0CB;
+            width: 30%;
+            height: 80%;
+            border-right: 3px dotted;
+            border-top: 3px dotted;
+            border-bottom: 3px dotted;
+        }
+}
