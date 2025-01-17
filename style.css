@@ -14,17 +14,38 @@ header{
 
 .main-header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 80%;
     background-color: #DAA520;
     border: 3px dotted;
-    padding: 1rem;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+    width: 20%;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 0.5rem;
+    width: 20%;
 }
 
 .menu{
     list-style: none;
     display: flex;
+    justify-content: center;
+    border-left: 3px dotted;
+    border-right: 3px dotted;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 80%;
 }
 
 .link{
