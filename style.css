@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ADD8E6;
+    padding: 1rem;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    background-color: #DAA520;
+    border: 3px dotted;
+    padding: 1rem;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+}
+
+.link{
+    padding: 0.25rem;
+}
